@@ -15,10 +15,14 @@ PS : n'oubliez pas de commenter votre code avant de le soumettre.
 2. Créer une personne avec ce prototype :
   - Prototype de personne -
     --------------------
+    
   name : string [required]
+  
   age : number
+  
   favoriteFoods : array of strings (*)
-  Utilisez les types du schéma de base de la mangouste. Si vous le souhaitez, vous pouvez également ajouter des champs supplémentaires, utiliser des validateurs simples tels que required ou unique, et définir des valeurs par défaut. Voir la documentation de mangoos. 
+  
+  Utilisez les types du schéma de base de mongoose. Si vous le souhaitez, vous pouvez également ajouter des champs supplémentaires, utiliser des validateurs simples tels que required ou unique, et définir des valeurs par défaut. Voir la documentation de mangoos. 
 
 3. Créer et sauvegarder un enregistrement d'un modèle:
 
